@@ -26,8 +26,13 @@ export default function Sidebar({ open, onClose }) {
         <div className="flex items-center gap-3 px-6 h-16 border-b border-slate-200 shrink-0">
           <div className="w-9 h-9 rounded-lg bg-brand-600 flex items-center justify-center text-white font-bold text-sm">EP</div>
           <div>
-            <p className="font-bold text-slate-800 text-sm leading-tight">EventInventory</p>
-            <p className="text-xs text-slate-400 leading-tight">Pro</p>
+            <p className="font-bold text-slate-800 text-sm leading-tight">
+Bizzo
+</p>
+
+<p className="text-xs text-slate-400 leading-tight">
+Inventory
+</p>
           </div>
         </div>
 
