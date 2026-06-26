@@ -16,7 +16,7 @@ const titles = {
 export default function Layout() {
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const location = useLocation()
-  const meta = titles[location.pathname] || { title: 'EventInventory Pro', subtitle: '' }
+  const meta = titles[location.pathname] || { title: 'Bizzo Inventory', subtitle: '' }
 
   return (
     <div className="flex h-screen overflow-hidden bg-slate-50">
