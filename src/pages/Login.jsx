@@ -51,7 +51,7 @@ export default function Login() {
         <div className="relative z-10 flex flex-col justify-center px-16 text-white">
           <div className="flex items-center gap-3 mb-8">
             <div className="w-12 h-12 rounded-xl bg-white/20 backdrop-blur flex items-center justify-center font-bold text-lg">EP</div>
-            <span className="text-xl font-bold">EventInventory Pro</span>
+            <span className="text-xl font-bold">Bizzo Inventory</span>
           </div>
           <h1 className="text-4xl font-bold leading-tight mb-4">
             Inventory management<br />for unforgettable events.
@@ -81,7 +81,7 @@ export default function Login() {
         <div className="w-full max-w-sm">
           <div className="lg:hidden flex items-center gap-3 mb-8 justify-center">
             <div className="w-10 h-10 rounded-lg bg-brand-600 flex items-center justify-center text-white font-bold">EP</div>
-            <span className="text-lg font-bold text-slate-800">EventInventory Pro</span>
+            <span className="text-lg font-bold text-slate-800">Bizzo Inventory</span>
           </div>
 
           <h2 className="text-2xl font-bold text-slate-800">Welcome back</h2>
@@ -133,9 +133,9 @@ export default function Login() {
             <p className="text-xs font-medium text-slate-500 mb-3">Quick demo login — click to autofill:</p>
             <div className="grid grid-cols-3 gap-2">
               {[
-                { label: 'Admin', email: 'admin@events.com', pw: 'admin123' },
-                { label: 'Staff', email: 'staff@events.com', pw: 'staff123' },
-                { label: 'Viewer', email: 'viewer@events.com', pw: 'viewer123' },
+                { label: 'Admin', email: 'admin@Bizzo.com', pw: 'admin123' },
+                { label: 'Staff', email: 'staff@Bizzo.com', pw: 'staff123' },
+                { label: 'Viewer', email: 'viewer@Bizzo.com', pw: 'viewer123' },
               ].map((d) => (
                 <button
                   key={d.label}
