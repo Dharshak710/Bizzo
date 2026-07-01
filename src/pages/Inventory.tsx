@@ -339,7 +339,7 @@ function ItemFormModal({
           <input className="input" value={form.location} disabled={!canEdit} onChange={(e) => set("location", e.target.value)} placeholder="Warehouse A — Shelf 3" />
         </div>
         <div>
-          <label className="label">Unit cost ($)</label>
+          <label className="label">Unit cost (₹)</label>
           <input type="number" min={0} step="0.01" className="input" value={form.unitCost} disabled={!canEdit} onChange={(e) => set("unitCost", Number(e.target.value))} />
         </div>
         <div>
